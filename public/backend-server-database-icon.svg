@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="limeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#89D467"/>
+      <stop offset="55%" stop-color="#A9E878"/>
+      <stop offset="100%" stop-color="#C6F499"/>
+    </linearGradient>
+    <linearGradient id="darkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#151B1D"/>
+      <stop offset="100%" stop-color="#252C2E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark circular badge -->
+  <circle cx="256" cy="256" r="214" fill="url(#darkGradient)"/>
+
+  <!-- Server stack -->
+  <g fill="none" stroke="url(#limeGradient)" stroke-width="13"
+     stroke-linecap="round" stroke-linejoin="round">
+    <!-- top server -->
+    <rect x="130" y="143" width="185" height="63" rx="21"/>
+    <circle cx="160" cy="174" r="5" fill="url(#limeGradient)" stroke="none"/>
+    <circle cx="183" cy="174" r="5" fill="url(#limeGradient)" stroke="none"/>
+    <circle cx="206" cy="174" r="5" fill="url(#limeGradient)" stroke="none"/>
+    <path d="M258 174h27"/>
+
+    <!-- middle server -->
+    <rect x="130" y="211" width="185" height="63" rx="21"/>
+    <circle cx="160" cy="242" r="5" fill="url(#limeGradient)" stroke="none"/>
+    <circle cx="183" cy="242" r="5" fill="url(#limeGradient)" stroke="none"/>
+    <circle cx="206" cy="242" r="5" fill="url(#limeGradient)" stroke="none"/>
+
+    <!-- bottom server -->
+    <rect x="130" y="279" width="185" height="63" rx="21"/>
+    <circle cx="160" cy="310" r="5" fill="url(#limeGradient)" stroke="none"/>
+    <circle cx="183" cy="310" r="5" fill="url(#limeGradient)" stroke="none"/>
+    <circle cx="206" cy="310" r="5" fill="url(#limeGradient)" stroke="none"/>
+
+    <!-- Server connection -->
+    <path d="M315 174h27v118"/>
+    <path d="M315 242h27"/>
+    <path d="M315 310h27"/>
+
+    <!-- Database -->
+    <ellipse cx="342" cy="282" rx="62" ry="23"/>
+    <path d="M280 282v91c0 13 28 23 62 23s62-10 62-23v-91"/>
+    <path d="M280 327c0 13 28 23 62 23s62-10 62-23"/>
+    <path d="M280 373c0 13 28 23 62 23s62-10 62-23"/>
+
+    <!-- Network/connection line -->
+    <path d="M130 373h-18"/>
+    <path d="M112 373v-18"/>
+    <circle cx="112" cy="355" r="7" fill="url(#limeGradient)" stroke="none"/>
+  </g>
+</svg>
